@@ -1,0 +1,35 @@
+{
+"host": "127.0.0.1",
+"port": 17380,
+"deepseek": {
+"baseUrl": "https://chat.deepseek.com",
+"clientVersion": "2.7.1",
+"bundleId": "com.deepseek.chat",
+"locale": "zh_CN",
+"timezoneOffset": 28800
+},
+"device": {
+"model": "PC"
+},
+"creds": {
+"bearer": "",
+"deviceId": "",
+"rangersId": ""
+},
+"pow": {
+"mode": "oracle",
+"oracleUrl": "http://127.0.0.1:17381/pow",
+"manualHeader": "",
+"timeoutMs": 60000
+},
+"delta": {
+"enabled": true,
+"minDeltaChars": 1
+},
+"tools": {
+"filterUndeclared": false
+},
+"log": {
+"level": "info"
+}
+}

@@ -1,0 +1,28 @@
+===== 凭据与运行时配置 =====
+config.json 含真实 bearer / deviceId / PoW 头，绝不入库
+config.json
+config.local.json
+*.secret.json
+===== 备份与临时文件 =====
+*.bak
+*.tmp
+*.swp
+*~
+*.7z
+*.zip
+===== 依赖 =====
+node_modules/
+package-lock.json
+===== 日志与产物 =====
+*.log
+logs/
+test_out.txt
+_panel.js
+.dsh-io-test.txt
+===== 系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+===== 编辑器 =====
+.vscode/
+.idea/
